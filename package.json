@@ -1,0 +1,22 @@
+{
+  "name": "webpage-screenshot",
+  "version": "1.0.0",
+  "description": "A tool to take screenshots of web pages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "screenshot",
+    "puppeteer",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stagewise/toolbar": "^0.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer": "^24.10.2"
+  }
+}
